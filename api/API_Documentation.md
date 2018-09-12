@@ -21,7 +21,7 @@ All code will return RESTful JSON in the following structure
 ### Login
 The main login call to log the user into a session.
 
-url: GET "/login"
+url: GET "/api/login"
 
 200:
 ```json
@@ -47,7 +47,7 @@ url: GET "/login"
 ### Register
 Calling the register function will enable me to register a user so we can actually make the login work. Reason why I'm adding this call is so that I can have a hashed example working in python as well.
 
-url: POST "/register"
+url: POST "/api/register"
 
 **Arguments**
 - username
